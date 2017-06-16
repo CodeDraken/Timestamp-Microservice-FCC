@@ -8,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "start-watch": "nodemon --watch index.js"
+    "start-watch": "nodemon --watch index.js",
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon yarn test"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
@@ -18,6 +20,7 @@
   "devDependencies": {
     "expect": "^1.20.2",
     "mocha": "^3.4.2",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   }
 }
