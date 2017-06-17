@@ -3,8 +3,10 @@ Back-end project for FreeCodeCamp
 
 https://fluffy-carpenter.glitch.me/time/1450137600
 
-## Usage:
+## How to use:
 Send a GET request to: /time/:input
+
+Run tests by running ```npm test```
 
 Input should be a date or a unix timestamp
 
@@ -19,3 +21,4 @@ Example output:
 ## Tech used:
 * Code: JavaScript, NodeJS, Express
 * Testing: Mocha, Expect, Supertest
+* Utility: cors, body-parser
